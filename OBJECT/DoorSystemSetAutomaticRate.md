@@ -11,6 +11,8 @@ void DOOR_SYSTEM_SET_AUTOMATIC_RATE(Hash doorHash, float rate, BOOL requestDoor,
 
 Includes networking check: ownership vs. or the door itself **isn't** networked.
 
+Sets the maximum distance at which the door opens automatically.
+
 ## Parameters
 * **doorHash**: Door system identifier
 * **rate**: 
